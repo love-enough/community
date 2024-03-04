@@ -15,6 +15,7 @@ public class Page {
     //查询路径
     private String path;
 
+
     public int getCurrent() {
         return current;
     }

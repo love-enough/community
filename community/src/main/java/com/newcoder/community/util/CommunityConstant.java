@@ -32,4 +32,17 @@ public  interface CommunityConstant {
      * @date 16:44 2024/3/3
      */
     int REMEMBER_EXPIRED_SECONDS = 3600 * 24 * 100;
+
+    /**
+     * @Description 实体类型：帖子
+     * @author GuoZihan
+     * @date 17:37 2024/3/4
+     */
+    int ENTITY_TYPE_POST = 1;
+    /**
+     * @Description 实体类型：评论
+     * @author GuoZihan
+     * @date 17:37 2024/3/4
+     */
+    int ENTITY_TYPE_COMMENT = 2;
 }
